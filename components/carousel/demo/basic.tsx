@@ -19,6 +19,7 @@ const App: React.FC = () => {
     <Carousel afterChange={onChange}>
       <div>
         <h3 style={contentStyle}>1</h3>
+        Bhaskar
       </div>
       <div>
         <h3 style={contentStyle}>2</h3>
@@ -26,9 +27,7 @@ const App: React.FC = () => {
       <div>
         <h3 style={contentStyle}>3</h3>
       </div>
-      <div>
-        <h3 style={contentStyle}>4</h3>
-      </div>
+   
     </Carousel>
   );
 };
